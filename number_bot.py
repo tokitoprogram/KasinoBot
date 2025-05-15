@@ -40,7 +40,7 @@ def get_invoices():
             invoice_id = item.get('invoice_id')
             invoice_url = item.get('pay_url')
             invoice_status = item.get('status')
-            invoice_userId = 7405022254 # С бота берем айдишник пользователя
+            invoice_userId =  # С бота берем айдишник пользователя
             invoice_data = {
                 'invoice_id':invoice_id,
                 'invoice_userId':invoice_userId, #invoice_id привязан к invoice_user
@@ -54,7 +54,7 @@ def get_invoices():
             invoice_id = item.get('invoice_id')
             invoice_url = item.get('pay_url')
             invoice_status = item.get('status')
-            invoice_userId = 7405022254 # С бота берем айдишник пользователя
+            invoice_userId =  # С бота берем айдишник пользователя
             invoice_data = {
                 'invoice_id':invoice_id,
                 'invoice_userId':invoice_userId, #invoice_id привязан к invoice_user
